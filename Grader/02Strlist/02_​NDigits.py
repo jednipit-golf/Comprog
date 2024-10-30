@@ -1,0 +1,6 @@
+M = int(input())
+N = int(input())
+m = str(M)
+A = N-len(m)
+B = max(A,0)
+print('0'*B+m)

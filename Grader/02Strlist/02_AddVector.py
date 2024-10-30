@@ -1,0 +1,9 @@
+U = input()[1:-1].split(",")
+V = input()[1:-1].split(",")
+a = float(U[0])+float(V[0])
+b = float(U[1])+float(V[1])
+c = float(U[2])+float(V[2])
+u = [float(U[0]),float(U[1]),float(U[2])]
+v = [float(V[0]),float(V[1]),float(V[2])]
+Y = [a,b,c]
+print(str(u)+" + "+str(v)+" = "+str(Y))
